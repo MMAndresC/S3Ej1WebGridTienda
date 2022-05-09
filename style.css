@@ -1,0 +1,45 @@
+div{
+    display:inline-block;
+}
+
+main{
+    position:relative;
+}
+
+span{
+    margin:5px;
+    background-color: rgb(201, 198, 198);
+}
+
+.menu-container{
+    position:absolute;
+    float:left;
+    top:-5%;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+}
+
+.header-container{
+    position:relative;
+    display:block;
+    margin:0 auto;
+}
+
+.product-container{
+    background-color:red;
+    width:17%;
+    height: 400px;
+    margin:50px;
+}
+
+.title-container{
+    left:50%;
+    transform:translateX(-50%);
+    position:relative;
+}
+
+.search-container{
+    position:relative;
+    left:65%;
+}
